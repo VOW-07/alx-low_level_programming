@@ -13,8 +13,15 @@ int main(void)
 	char vow;
 
 	for (vow = 'z'; vow >= 'a'; vow--)
+	{
 		putchar(vow);
-		putchar('\n');
+		if (vow !='z')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
 
 	return (0);
 }
