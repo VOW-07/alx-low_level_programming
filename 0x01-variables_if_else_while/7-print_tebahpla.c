@@ -12,7 +12,7 @@ int main(void)
 {
 	char vow;
 
-	for (vow = 'a'; vow <= 'z'; vow++)
+	for (vow = 'z'; vow >= 'a'; vow--)
 		putchar(vow);
 		putchar('\n');
 
